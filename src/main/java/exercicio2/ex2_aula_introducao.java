@@ -2,8 +2,8 @@ package exercicio2;
 
 public class ex2_aula_introducao {
     public static void main(String[] args){
-        int ingressosInteiros = 8; // vale 30 cada
-        int ingressosMeia = 5; // vale 15 cada
+        int ingressosInteiros = 8; // posso usar var enves de int para não precisar especificar o tipo
+        int ingressosMeia = 5;
         double valorIngressoInteiro = 30.00;
         double valorIngressoMeia = 15.00;
         int quantidadeTotalIngressosVendidos = 13;
