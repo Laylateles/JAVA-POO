@@ -1,5 +1,6 @@
 package aula2;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class exercicio1 {
@@ -32,12 +33,15 @@ public class exercicio1 {
         System.out.printf("Olá %s\n","testando");
         System.out.printf("Nota: %.2f\n", 9.5);
 
-        Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);// teclado é um objeto e scanner é uma classe
+        teclado.useLocale(Locale.US);// adicionei para poder trabalhar com ponto = 1.87 sem isso tenho q colocar virgula 1,87
+
+
         System.out.println("Entre com sua idade:");
-        int minha_idade = teclado.nextInt();
+        int minha_idade = teclado.nextInt();//nextInt é uma classe que posso utilizar por causa do objeto
 
         System.out.println("Entre com sua altura:");
-        double altura = teclado.nextDouble();
+        double altura = teclado.nextDouble();//
 
         teclado.nextLine();//limpa o buffer do teclado, captura o \n
 
