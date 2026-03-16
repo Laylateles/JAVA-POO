@@ -5,7 +5,7 @@ public class Conta {
     public double saldo;//deixei eles acessiveis em todo o projeto
     public double limite;
     public int agencia;
-    public int contaCliente;
+    public String contaCliente;
 
     // Métodos
     public void deposita(double quantia){
@@ -15,5 +15,10 @@ public class Conta {
 
     public void saca(double quantia){
         this.saldo -= quantia;
+    }
+
+    public void transferir(Conta contaDestino, double quantia){
+        this.saldo -= quantia;
+        contaDestino.saldo += quantia;
     }
 }
