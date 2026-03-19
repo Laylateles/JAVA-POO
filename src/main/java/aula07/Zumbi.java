@@ -2,13 +2,13 @@ package aula07;
 
 public class Zumbi {
     public String nome;
-    public int vida;
+    public int nivelFome;
 
-    public void morder(String pessoa){
-        this.vida -= 1; // a pessoa perde 1 de vida
+    public void morder(){
+        System.out.println("Irei te morder!!");
     }
 
     public void correr(){
-        System.out.println("Eu estou atrás de você " + nome);
+        System.out.println("Eu estou atrás de você");
     }
 }
