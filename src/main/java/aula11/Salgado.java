@@ -1,7 +1,7 @@
 package aula11;
 
 public class Salgado {
-    String nome;
+    public String nome;
     public Salgado[] salgados = new Salgado[3];//array para armazenar 3 salgados
 
     public void addSalgado(Salgado novoSalgado){//método
@@ -16,7 +16,7 @@ public class Salgado {
     public void mostrarInfo(){
         for (Salgado salgados: this.salgados){
             if (salgados != null){
-                System.out.println(salgados.nome);
+                System.out.println(salgados.nome);// mostro o vetor que contem os salgados
             }
         }
     }
