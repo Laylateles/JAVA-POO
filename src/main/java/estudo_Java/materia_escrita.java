@@ -57,4 +57,43 @@ long idade1 = idade; // aqui não teve conflito porque o tipo long é maior que 
 byte -> short -> int -> long -> float -> double
 
 ->> Saída de dados:
+System.out.print("ola") // imprime o texto sem pular linha
+System.out.println("teste") // imprime o texto e pula para a próxima linha
+System.out.printf("Olá %s\n", "Flavio") // imprime o texto e permite formatação de texto
+System.out.printf("Nota: %.2f\n" , 9.5) // imprime com 2 casas decimais
+
+->> Entrada de dados:
+Para digitar valores no teclado e interagir com o programa, precisamos usar a classe
+Scanner. Para isso é necessário fazer a imortação da biblioteca: java.util.Scanner; -- mas o próprio programa faz
+Para usar a classe Scanner precisamos criar um objeto a partir dela => Scanner teclado = new Scanner(System.in);
+teclado.nextLine(); -- para limpar o buffer do enter
+Para cada tipo de variável é necessário usar um método diferente
+Utilizamos a virgula para números decimais!! A não ser que eu mude a linguagem do meu programa!!!
+
+->> Estruturas de Decisão: mesma estrutura que nas outras linguagens
+if-else
+switch(){ case 1: break; case 2: break; default: break;}
+
+->> Estruturas de Repetição:
+While => verifica a condição primeiro e executa caso seja verdadeira
+Do while => executa ao menos uma vez e verifica a condição, caso seja vdd executa dnv
+For => define uma variável de controle e executa até que a condição atrelada a essa variável seja falsa
+
+O break pode ser utilizado para interromper o loop caaso seja necessário, ele para antes que a condição principal seja falsa
+
+->> Paradgmas de Programação:
+Imperativo: Descreve como o programa deve executar passo a passo:
+-Estruturado: organiza os fluxo com sequência, decisão e repetição
+-Procedural: organiza o código em procedimento(funções)
+-Orientado a objetos: organiza o programa em objetos
+
+Declarativo: Descreve o que deve ser feito, não como fazer, o sistema tem autonomia sobre como executar,
+o foco é menor no controle de fluxo e alteração de estado.
+-Funcional: baseado em funções puras e imutabilidade;
+-Lógico: baseado em regras, fatos e inferência, muito usado em IA
+
+->> Orientação a Objetos:
+E como se apresenta um objeto no mundo real com a programação orientada a objetos?:
+Através da criação de classes, elas possuem elementos que descrevem qualquer objeto, como atributos(caractrísticas) e métodos(funções).
+
 */
