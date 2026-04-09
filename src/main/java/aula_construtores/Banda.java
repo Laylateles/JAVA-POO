@@ -4,13 +4,14 @@ public class Banda {
     private String nome;
     private String genero;
 
-    public Banda(String nome, String genero){
-
+    public Banda(String nome, String genero){//construtor
+        this.nome = nome;
+        this.genero = genero;
     }
 
     public void mostraInfo(){
-        this.nome = nome;
-        this.genero = genero;
+        System.out.println(this.nome);
+        System.out.println(this.genero);
     }
 
     public void addMusicaNova(Musica musica){
@@ -18,7 +19,7 @@ public class Banda {
     }
 
     public void addMembroNovo(Membro membro){
-
+        
     }
 
 }
