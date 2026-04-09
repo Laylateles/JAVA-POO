@@ -95,5 +95,37 @@ o foco é menor no controle de fluxo e alteração de estado.
 ->> Orientação a Objetos:
 E como se apresenta um objeto no mundo real com a programação orientada a objetos?:
 Através da criação de classes, elas possuem elementos que descrevem qualquer objeto, como atributos(caractrísticas) e métodos(funções).
+Exemplo Classe Animal: Atributos= Cor, Nome, Ano de Nascimento, Altura, Nome do Dono
+Métodos= Andar, comer, dormir, brincar;
+Pode-se criar(instanciar) os objetos cachorro, gato,tigre,elefante a partir da classe Animal
+Uma classe é como uma "forma de bolo para criar tipos de objetos"
+
+A especificação é a classe e as instâncias são os objetos criados a partir da classe
+Da mesma forma que temos os tipos primitivos(int,char), temos os tipos complexos que são as variáveis
+do tipo de uma classe, os objetos.
+
+->> Referência:
+Stack => possui o comportamento de pilha e é utilizada para empilhar variáveis locais, referências de objetos armazenados
+na HEAP e chamadas para métodos -- var c1 e c2
+
+Heap => possui o comportamento de alocação dinâmica, ela armazena objetos criados e seus atributos, arrays, entre outras estruturas de dados criadas
+dinamicamente durante a execução do programa.  -- endereço de memória dessas variáveis
+
+->> UML:
+é uma linguagem visual para especificação, visualização e documentação de software, em blocos:
+nome da classe
+membros da classe
+métodos da classe
+-- modificadores de acesso: + public, - private, # protected
+
+->> Relacionamento entre objetos: -- Associação
+- Uma associação representa um relacionamento entre objetos, indicando que eles se conhecem ou se utilizam
+Pode ocorrer da seguinte forma:
+* Quando um objeto possui outro objeto(o relacionamento "tem um")
+* Quando um objeto utiliza outro para executar uma ação
+
+Agregação=> conta (losango branco)---- cliente, a conta possui os dados do cliente, o cliente pode existir independentemente de uma conta existir
+a classe conta recebe o Cliente titular; -- crio uma variavel do tipo Cliente dentro da classe conta
+Composição=> empres (losango preto)---- departamento, não existe departamento sem empresa, porém uma empresa pode existir sem departamento
 
 */
