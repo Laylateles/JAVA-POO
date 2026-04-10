@@ -1,4 +1,4 @@
-package br.inatel.poo.banco;
+package banco;
 
 public class Conta {
     private double saldo;// só nessa classe conta eu tenho acesso as variaveis

@@ -1,6 +1,6 @@
 package aula_package;
 
-import br.inatel.poo.banco.Cliente;
+import banco.banco.Cliente;
 
 public class Main {
     public static void main(String[] args){

@@ -19,7 +19,7 @@ public class Banda {
     }
 
     public void addMembroNovo(Membro membro){
-        
+
     }
 
 }

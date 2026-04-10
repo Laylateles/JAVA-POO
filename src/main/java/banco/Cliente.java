@@ -1,4 +1,4 @@
-package br.inatel.poo.banco;
+package banco;
 
 public class Cliente {
     public String nome;

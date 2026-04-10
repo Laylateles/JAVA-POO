@@ -1,5 +1,4 @@
 package org.example;
-import br.inatel.poo.banco.Conta;
 
 public class Main1 {
     public static void main(String[] args){
