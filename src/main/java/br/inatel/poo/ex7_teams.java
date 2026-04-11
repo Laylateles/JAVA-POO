@@ -1,4 +1,4 @@
-package exercicio2.teams;
+package br.inatel.poo;
 
 public class ex7_teams {
     public static void main(String[] args){
