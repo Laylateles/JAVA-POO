@@ -128,4 +128,48 @@ Agregação=> conta (losango branco)---- cliente, a conta possui os dados do cli
 a classe conta recebe o Cliente titular; -- crio uma variavel do tipo Cliente dentro da classe conta
 Composição=> empres (losango preto)---- departamento, não existe departamento sem empresa, porém uma empresa pode existir sem departamento
 
+->> Arrays no Java:
+Como podemos declarar um array: int w []; int []x; int [] y; int z[]; arrays que vão armazenar informações do tipo inteiro
+Como podemos inicializar um array no Java: int x[] = new int[10]; cria array de 10 posições do tipo inteiro, int z[] = {2,3,6,4}; array com 4 posições ja iniciado com valores
+Stack => guarda variáveis, referências e controle de execução.--possui comportamente de pilha
+Heap => guardas objetos, atributos dos objetos e arrays. -- possui alocação dinâmica conforme a disponiblidade
+Para percorrer um array:
+for(int i = 0; i < contas.length; i++){//lopp for tradicional
+if(contas[i] == null){
+break;
+    }
+ System.out.println(contas[i].saldo);
+}
+for(Conta c : contas){// for-each
+if(c == null){// preciso colocar essa condição pois eu ainda não inicializei meu vetor contas com valores
+break;
+    }
+  System.out.println(c.saldo);
+}
+
+Um objeto pode se relacionar com uma lista de objetos de outra classe.
+
+->> Matriz:
+int [][] matrizEx = new int[5][5]; -- criei uma matriz com 5 linhas e 5 colunas
+for(int i = 0; i < matrizEx.length; i++){// para ler as linhas
+    for(int j = 0; j < matrizEx[i].length; j++){ // para ler as colunas
+        matrizEx[i][j] = i + j;
+     }
+}
+
+->> Pacotes:
+No java, os pacotes se comportam exatamente como pastas do computador;
+Assim como as pastas contém nossos arquivos, os pacotes contém as classes.
+O padrão da Sun(empresa que criou o Java) para dar nome aos pacotes é relativo ao nome da empresa que desenvolveu a classe. Exemplos:
+br.com.nomedaempresa.nomedoprojeto.subpacote
+br.com.nomedaempresa.nomedoprojeto.subpacote2
+br.com.nomedaempresa.nomedoprojeto.subpacote2.subpacote3
+Cada "." (ponto) indica um novo subpacote, isto é, pacote dentro de pacote.
+O package sempre fica no começo do arquivo, ele informa em qual pacote está nossa classe
+Em seguida temos o "import" informando quais outras classes estamos usando.
+
+->> Modificadores de Acesso:
+private => permite que os membros da classe seja acessados apenas dentro da própria classe
+getters e setters => mostra, edita
+
 */
