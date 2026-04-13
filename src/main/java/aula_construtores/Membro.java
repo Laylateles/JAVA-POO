@@ -5,7 +5,7 @@ public class Membro {
     private String funcao;
 
     public Membro(String nome, String funcao){//construtor
-        this.nome = nome;
+        this.nome = nome;//metodos set
         this.funcao = funcao;
     }
 
@@ -13,15 +13,9 @@ public class Membro {
         return funcao;
     }
 
-    public void setFuncao(String funcao) {
-        this.funcao = funcao;
-    }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 }
