@@ -1,4 +1,4 @@
-package estudo_Java;
+package estudo_Java.aula03;
 
 import java.util.Scanner;
 

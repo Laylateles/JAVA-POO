@@ -1,4 +1,4 @@
-package estudo_Java;
+package estudo_Java.aula03;
 
 public class Exercicio2_cinema {
     public static void main(String[] args){

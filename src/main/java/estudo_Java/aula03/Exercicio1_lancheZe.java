@@ -1,4 +1,4 @@
-package estudo_Java;
+package estudo_Java.aula03;
 
 public class Exercicio1_lancheZe {
     public static void main(String[] args){

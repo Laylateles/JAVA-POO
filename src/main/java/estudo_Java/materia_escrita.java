@@ -172,4 +172,11 @@ Em seguida temos o "import" informando quais outras classes estamos usando.
 private => permite que os membros da classe seja acessados apenas dentro da própria classe
 getters e setters => mostra, edita
 
+->> Construtores:
+Quando usamos a palavra reservada "new" para instanciar um novo objeto de uma determinada classe, estamos também invocando o construtor desta classe
+que cria a sua instância, por isso o nome "construtor", pois ele constroi
+
+->> Static: modificador,pertence a classe e não a instância
+A palavra reservada "this" aponta para os atributos e métodos das instâncias, não para atributos ou métodos da
+classe que são estáticos
 */
